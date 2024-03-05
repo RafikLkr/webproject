@@ -1,7 +1,7 @@
 <?php
   session_start();
   // Récupérer les données de votre fichier JSON
-  $json_file = file_get_contents("../json/etudiant.json");
+  $json_file = file_get_contents("../json/etudiant.json"); 
   $data = json_decode($json_file, true); 
 
   // Vérifier si le formulaire est soumis
